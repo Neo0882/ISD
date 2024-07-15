@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Section_our_mission from "./component/Section_our_mission/Section_our_mission";
+import Section_Advantages from "./component/Section_Advantages/Section_Advantages";
+import Section_credit from "./component/Section_credit/Section_credit";
+import Section_direction from "./component/Section_direction/Section_direction";
+import Section_platform from "./component/Section_platform/Section_platform";
+import Section_score from "./component/Section_score/Section_score";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Section_our_mission />
+      <Section_direction />
+      <Section_platform />
+      <Section_score />
+      <Section_Advantages />
+      <Section_credit />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,61 @@
+.jiddiy_credit {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+}
+.banner_credit {
+  max-width: 500px;
+  width: 100%;
+  background: #499dff;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h3 {
+    max-width: 150px;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 30px;
+    color: #499dff;
+    text-align: center;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #fdfdfd;
+  }
+}
+.infaas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  img {
+    background: none;
+    max-width: 65px;
+  }
+}
+.infaas_1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fdfdfd;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+  padding-bottom: 12px;
+  p {
+    font-weight: 600;
+    font-size: 19px;
+  }
+}
+.banner_crm {
+  max-width: 800px;
+  width: 100%;
+  background: #d9eafd;
+  border-radius: 30px;
+  padding: 100px 0 0;
+  img {
+    background: none;
+    max-width: 900px;
+  }
+}
